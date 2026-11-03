@@ -1,0 +1,253 @@
+<div class="container mt-3">
+  <h1 class="bg-primary text-center"> 1.IaiArr..!!</h1>
+  <div class="row mt-md-5">
+    <div class="col-md-4 mb-md-5" *ngFor="let ai of aiArr">
+      <div class="card h-100 bg-primary text-white">
+        <div class="card-header">
+          <h3>{{ai.topic}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{ai.details}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+    <h1 class="bg-dark text-center text-white"> 2.MathArray..!!</h1>
+  <div class="row mt-md-5">
+    <div class="col-md-4 mb-md-5" *ngFor="let th of mathArray">
+      <div class="card h-100 bg-dark text-white">
+        <div class="card-header">
+          <h3>{{th.concept}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{th.explain}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-success text-center"> 3.RoboticsArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let robo of roboticsArr">
+      <div class="card h-100 bg-success text-white">
+        <div class="card-header">
+          <h3>{{robo. module}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{robo.summary}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-danger text-center text-white"> 4.BusiArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let busi of busiArr">
+      <div class="card h-100 bg-danger text-white">
+        <div class="card-header">
+          <h3>{{busi.topicName}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{busi.description}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+   <h1 class="bg-warning text-center"> 5.BusiArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let pys of psyArr">
+      <div class="card h-100 bg-warning text-black">
+        <div class="card-header">
+          <h3>{{pys.field}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{pys.concept}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-dark text-center text-white"> 6.bioArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let bio of bioArr">
+      <div class="card h-100 bg-dark text-white">
+        <div class="card-header">
+          <h3>{{bio.section}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{bio.detail}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-danger text-center text-white"> 7.techtool..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let tech of techtool">
+      <div class="card h-100 bg-danger text-white">
+        <div class="card-header">
+          <h3>{{tech.tool}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{tech.usage}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-warning text-center"> 8.eduArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let edu of eduArr">
+      <div class="card h-100 bg-warning text-dark">
+        <div class="card-header">
+          <h3>{{edu.subjectName}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{edu.overview}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-dark text-center text-white"> 9.cldArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let cld of cldArr">
+      <div class="card h-100 bg-dark text-white">
+        <div class="card-header">
+          <h3>{{cld.topic}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{cld.info}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-primary text-center"> 10.webdevArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let web of webdevArr">
+      <div class="card h-100 bg-primary text-white">
+        <div class="card-header">
+          <h3>{{web.topic}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{web.details}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h1 class="bg-dark text-center text-white"> 11.databArr..!!</h1>
+  <div class="row">
+    <div class="col-md-4 mb-md-5" *ngFor="let db of databArr">
+      <div class="card h-100 bg-dark text-white">
+        <div class="card-header">
+          <h3>{{db.concept}}</h3>
+        </div>
+        <div class="card-body">
+          <p>{{db.explain}}</p>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+          <button mat-mini-fab color="primary" aria-label="Example icon button with a delete icon">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-mini-fab color="warn" aria-label="Example icon button with a delete icon">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
